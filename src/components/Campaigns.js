@@ -6,14 +6,14 @@ import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
 function NextButton({ onClick, className }) {
     return (
-        <button className={`${className} text-purple-700`} onClick={onClick}>
+        <button className={`text-brand-color absolute top-1/2 -right-6 -translate-y-1/2`} onClick={onClick}>
             <IoIosArrowForward size={22} />
         </button>
     )
 }
 function PrevButton({ onClick, className }) {
     return (
-        <button className={`${className} text-purple-700`} onClick={onClick}>
+        <button className={`text-brand-color absolute top-1/2 -left-6 -translate-y-1/2`} onClick={onClick}>
             <IoIosArrowBack size={22} />
         </button>
     )
