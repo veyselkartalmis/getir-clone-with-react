@@ -5,3 +5,7 @@
 
 
 <img src="readme.png">
+
+## Todos
+
+- [] Responsive
