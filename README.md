@@ -1,6 +1,7 @@
 
 
-# getir.com Clone With React
+# getir.com Clone With React +Tailwind CSS
+
 ### [Live Site](https://getir-clone-with-react.netlify.app/)
 
 
