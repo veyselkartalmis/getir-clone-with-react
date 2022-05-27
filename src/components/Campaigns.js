@@ -25,12 +25,36 @@ export default function Campaigns() {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3500,
+        cssEase: "linear",
+        arrows: true,
         nextArrow: <NextButton />,
-        prevArrow: <PrevButton />
+        prevArrow: <PrevButton />,
+        responsive: [
+            {
+                breakpoint: 1280,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                }
+            }
+        ]
     };
 
     const [banners, setBanners] = useState([]);
